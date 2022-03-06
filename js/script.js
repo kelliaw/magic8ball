@@ -7,3 +7,7 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+
+  $("#button").click(function() {
+    $('.transform').toggleClass('transform-active');
+  });
